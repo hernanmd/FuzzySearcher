@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/18/2018 21:35",
+	"super" : "FSApproxMatcher",
+	"category" : "FuzzySearch-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FSShiftOrMatcher",
+	"type" : "normal"
+}

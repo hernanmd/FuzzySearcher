@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "FuzzySearchTest-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"matcher"
+	],
+	"name" : "PatternMatcherTest",
+	"type" : "normal"
+}

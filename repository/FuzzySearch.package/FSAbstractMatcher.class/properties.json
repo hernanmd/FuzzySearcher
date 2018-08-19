@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "hfm 12/20/2008 19:21",
+	"super" : "Object",
+	"category" : "FuzzySearch-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchPattern",
+		"text",
+		"words"
+	],
+	"name" : "FSAbstractMatcher",
+	"type" : "normal"
+}

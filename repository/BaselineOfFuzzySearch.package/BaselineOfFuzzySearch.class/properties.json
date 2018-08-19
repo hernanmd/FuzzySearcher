@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfFuzzySearch",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [ ],
+	"name" : "BaselineOfFuzzySearch",
+	"type" : "normal"
+}
