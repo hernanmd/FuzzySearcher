@@ -6,16 +6,12 @@ baseline: spec
 		spec blessing: #'baseline'.
 		spec repository: 'github://hernanmd/FuzzySearcher/repository/'.
 		spec
-			baseline: 'Diacriticals' 
-			with: [ spec repository: 'github://hernanmd/Diacriticals/repository' ];
-			baseline: 'SkipList' 
-			with: [ spec repository: 'github://hernanmd/SkipList/repository' ].
+			baseline: 'Diacriticals'		with: [ spec repository: 'github://hernanmd/Diacriticals/repository' ];
+			baseline: 'SkipList' 			with: [ spec repository: 'github://hernanmd/SkipList/repository' ].
 
 		spec 
-			package: 'FuzzySearch' 		with: [ spec requires: #('SkipLists' 'Diacriticals'). ];
-			package: 'FuzzySearchTest' 	with: [ spec requires: #('FuzzySearch'). ];
-			package: 'SkipLists';
-			package: 'SkipLists-Tests'.
+			package: 'FuzzySearch' 		with: [ spec requires: #('SkipList' 'Diacriticals'). ];
+			package: 'FuzzySearchTest' 	with: [ spec requires: #('FuzzySearch'). ].
 		spec 
-			group: 'Core' with: #('SkipLists' 'FuzzySearch');
+			group: 'Core' with: #('FuzzySearch');
 			group: 'Tests' with: #('FuzzySearchTest' 'SkipLists-Tests' ). ].
