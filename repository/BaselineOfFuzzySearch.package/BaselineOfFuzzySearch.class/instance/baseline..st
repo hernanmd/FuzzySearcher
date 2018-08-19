@@ -14,4 +14,4 @@ baseline: spec
 			package: 'FuzzySearchTest' 	with: [ spec requires: #('FuzzySearch'). ].
 		spec 
 			group: 'Core' with: #('FuzzySearch');
-			group: 'Tests' with: #('FuzzySearchTest' 'SkipLists-Tests' ). ].
+			group: 'Tests' with: #('FuzzySearchTest'). ].
