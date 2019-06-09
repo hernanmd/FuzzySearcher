@@ -2,7 +2,7 @@ querying
 countWordsFrom: aCollection
 	"Count words from aCollection. Answer an Integer "
 	"Example:
-		WordStats new countWordsFrom: 'this is a text and this is a test' 
+		FSWordStats new countWordsFrom: 'this is a text and this is a test' 
 		"
 
 	| stream w |

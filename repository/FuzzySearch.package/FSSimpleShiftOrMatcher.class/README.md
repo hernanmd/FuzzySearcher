@@ -15,7 +15,7 @@ This algorithm tests if the pattern is similar to the beginning of text and retu
 Typical way to use this is as follows.  First, as an initialization, do the following line.
 
 	| p |
-	p := BPSimplifiedShiftOrMatcher new.	"make an instance."
+	p := FSSimpleShiftOrMatcher new.	"make an instance."
 	"Second, pre-process the pattern"
 	p pattern: 'how'.
 	"Then, set the text and calculate the score."
@@ -25,7 +25,7 @@ Typical way to use this is as follows.  First, as an initialization, do the foll
 Another way to use this is to extract similar words to the given pattern from list of words. First, set up the 'words' instance variable (Array of Strings) by:
 
 	| p |
-	p := BPSimplifiedShiftOrMatcher new.
+	p := FSSimpleShiftOrMatcher new.
 	p readWordsFromFileNamed: 'alice30.txt'.		"read the vocabulary from a file"
 	p pattern: 'al'.
 	p lookForUntilSatisfied: [ : found | found size >= 10].

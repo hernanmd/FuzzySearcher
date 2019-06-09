@@ -2,7 +2,7 @@ querying
 doSearch
 	" Score the words in aCollection "
 	"Example:
- 			WordStats new
+ 			FSWordStats new
 						threshold: 0.5;
 						searchType: #fullFuzzyMatch: ;
 						searchPattern: '' ;

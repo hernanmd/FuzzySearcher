@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "FuzzyMatcherTest",
+	"instvars" : [
+		"matcher"
+	],
+	"name" : "FSSimpleShiftOrMatcherTest",
 	"type" : "normal"
 }

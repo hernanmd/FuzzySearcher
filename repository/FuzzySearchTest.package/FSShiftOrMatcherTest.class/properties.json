@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"matcher"
-	],
-	"name" : "PatternMatcherTest",
+	"instvars" : [ ],
+	"name" : "FSShiftOrMatcherTest",
 	"type" : "normal"
 }

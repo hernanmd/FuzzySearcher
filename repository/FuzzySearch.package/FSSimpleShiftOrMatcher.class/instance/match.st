@@ -1,4 +1,4 @@
-accessing
+public accessing
 match
 
 	| finalBit state |

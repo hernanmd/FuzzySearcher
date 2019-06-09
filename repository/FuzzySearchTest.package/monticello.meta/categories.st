@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #FuzzySearchTest!
-SystemOrganization addCategory: 'FuzzySearchTest-Core'!
+SystemOrganization addCategory: #'FuzzySearchTest-Core'!

@@ -1,4 +1,4 @@
-accessing
+public accessing
 match
 
 	| patternSize states patternMask ascii finalBit bitShift |
