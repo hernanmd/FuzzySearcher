@@ -29,7 +29,7 @@ Class {
 		'searchText',
 		'searchType'
 	],
-	#category : 'FuzzySearch-Utilities'
+	#category : #'FuzzySearch-Utilities'
 }
 
 { #category : #defaults }
@@ -83,7 +83,7 @@ FSWordStats >> analyzeFromStream: aStream [
 	| w n |
 
 	wordCounts := Dictionary new: 10000.
-	[ (w := self nextWordFrom: aStream) notNil] 
+	[ (w := self nextWordFrom: aStream) notNil ] 
 		whileTrue: [
 			((w first = $') or: [ w last = $' ]) 
 				ifFalse: [
@@ -110,10 +110,10 @@ FSWordStats >> countWordsFrom: aCollection [
 	| stream w |
 	stream := aCollection readStream.
 	wordCounts := 0.
-	[(w := self nextWordFrom: stream) notNil] 
+	[ (w := self nextWordFrom: stream) notNil ] 
 		whileTrue: [
-			((w first = $') or: [w last = $']) 
-				ifFalse: [ wordCounts := wordCounts + 1 ]	].
+			((w first = $') or: [ w last = $' ]) 
+				ifFalse: [ wordCounts := wordCounts + 1 ] ].
 	^ wordCounts
 
 ]

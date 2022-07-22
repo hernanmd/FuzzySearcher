@@ -40,7 +40,7 @@ Class {
 	#instVars : [
 		'table'
 	],
-	#category : 'FuzzySearch-Core'
+	#category : #'FuzzySearch-Core'
 }
 
 { #category : #examples }
@@ -68,12 +68,11 @@ FSSimpleShiftOrMatcher class >> example02 [
 { #category : #'public accessing' }
 FSSimpleShiftOrMatcher >> cellPhoneKeyPattern: aString [
 
-	aString isEmpty
-		ifTrue: [ searchPattern := ' ' ] 
-		ifFalse: [ searchPattern := aString copy].
+	searchPattern := aString isEmpty
+		                 ifTrue: [ ' ' ]
+		                 ifFalse: [ aString copy ].
 
-	self table: (FSPatternTable cellPhoneKeyPattern: searchPattern).
-
+	self table: (FSPatternTable cellPhoneKeyPattern: searchPattern)
 ]
 
 { #category : #'public accessing' }
