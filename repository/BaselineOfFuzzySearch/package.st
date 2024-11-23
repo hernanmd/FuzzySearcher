@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfFuzzySearch }
+Package { #name : 'BaselineOfFuzzySearch' }

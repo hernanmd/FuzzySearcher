@@ -1,19 +1,18 @@
 Class {
-	#name : #BaselineOfFuzzySearch,
-	#superclass : #BaselineOf,
+	#name : 'BaselineOfFuzzySearch',
+	#superclass : 'BaselineOf',
 	#classVars : [
 		'LastVersionLoad'
 	],
-	#category : 'BaselineOfFuzzySearch'
+	#category : 'BaselineOfFuzzySearch',
+	#package : 'BaselineOfFuzzySearch'
 }
 
-{ #category : #baselines }
+{ #category : 'baselines' }
 BaselineOfFuzzySearch >> baseline: spec [
 	<baseline>
 
 	spec for: #'common' do: [
-		spec blessing: #'baseline'.
-		spec repository: 'github://hernanmd/FuzzySearcher/repository/'.
 		spec
 			baseline: 'Diacriticals'		with: [ spec repository: 'github://hernanmd/Diacriticals/repository' ];
 			baseline: 'SkipList' 			with: [ spec repository: 'github://hernanmd/SkipList/repository' ].
